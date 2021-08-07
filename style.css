@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+  background-color: skyblue;
+}
+div{
+  background-color: slategrey;
+  
+  color: rgb(61, 31, 194);
+  text-align: center;
+  width: 50%;
+  margin: 100px auto;
+  border: thin;
+}
+div img{
+   width: 200px;
+   margin: 20px auto;
+}
+.admin-heading{
+  font-size: 2oopx;
+  padding: 5px;
+}
+.form-button{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(54, 26, 175);
+    color: white
+    ;
+
+}
+ div form input{
+
+   background-color: rgb(77, 56, 128);
+   display: block;
+   margin: 10px auto;
+   padding: 10px;
+   width: 60%;
+   border-radius: 25px;
+   border-color: rgb(77, 56, 128);
+   color: white;
+   font-size: large;
+ }
+
+form{
+
+}
+.form-button{
+  width: 25%;
+  margin: auto;
+  font-size: 20px;
+}
+.admin-div form input:focus{
+  background: white;
+  color: black;
+  transition: 0.5s;
+  border-radius: 25px;
+
+ }
+.form-button:hover{
+  background-color: white;
+  transition: 0.9s;
+  color: blue;
+  border: 2px solid blue;
+}
+linked{
+  text-align: center;
+  
+}
+.linked a{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  margin: 30px;
+  
+}

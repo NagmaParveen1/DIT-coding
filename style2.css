@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+  background-color: skyblue;
+}
+div{
+  background-color: rgb(89, 142, 196);
+  
+  color: rgb(218, 217, 223);
+  text-align: center;
+  width: 50%;
+  margin: 100px auto;
+  border: thin;
+}
+.heading{
+  display: block;
+  margin-bottom: 20px;
+}
+div form input{
+
+    background-color: rgb(51, 14, 138);
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 25px;
+    border-color: rgb(77, 56, 128);
+    color: white;
+    font-size: large;
+    
+  }
+ .form-button{
+   display: block;
+   margin-top: 40px;
+   width: 25%;
+   padding: 10px;
+ }
+link2{
+    text-align: center;
+    
+  }
+  .link2 a{
+    color:white;
+    text-decoration: none;
+    font: large;
+    margin: 30px;
+  }
+  .register-div form input:focus{
+    background-color:white;
+    transition: 0.8s;
+    
+  }
+  .form-button:hover{
+    background-color: blue;
+    transition: 0.5s;
+  }

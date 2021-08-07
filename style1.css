@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+  background-color: skyblue;
+}
+div{
+  background-color: rgb(61, 141, 221);
+  
+  color: white;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+  border: thin;
+}
+.heading{
+  display: block;
+  margin-bottom: 20px ;
+  margin-left: 20px;
+  margin-top: 40px;
+  
+}
+.para{
+  font-size: 25px;
+  color: aquamarine;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+.c-button{
+  width: 30%;
+  border: none;
+}
+ div form input{
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  color:white;
+  padding: 10px;
+  font-size: large;
+  background-color: rgb(65, 41, 173);
+  border: none;
+  border-radius: 25px;
+}
+  
+  link1 {
+    text-align: center;
+     font-size: large;
+     margin-bottom: 25px;
+  }
+  .link1 a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin: 50px;
+      
+  }
+  .c-button:hover{
+    background-color: teal;
+    transition: 0.8s;
+  }
+  .password-div input:focus{
+    background-color: white;
+    transition: 0.5s;
+  }
